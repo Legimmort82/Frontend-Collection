@@ -28,12 +28,25 @@ let hye1 = null;
 
 // let userData = { name: username, age: userAge, married: userMarried };
 // console.log(userData);
-let num1 = 23
-let num2 = 26
-let str1 = "ali"
-let str2 = null
-if (a !== 1) {
-  console.log("a = 1");
-} else if (a == 0) {
-  console.log("a = 0");
-} else console.log("a = 1");
+let num1 = 23;
+let num2 = 26;
+let str1 = "ali";
+let str2 = null;
+let status2 = true;
+// if (a !== 1) {
+//   console.log("a = 1");
+// } else if (a == 0) {
+//   console.log("a = 0");
+// } else console.log("a = 1");
+if (status2 && str2) {
+  console.log("this is true");
+}
+
+for (let i = 1; i < 11; i = i + 2) {
+  console.log(i + 1);
+}
+let counter = 0;
+while (counter < 10) {
+  console.log(counter);
+  counter++;
+}
