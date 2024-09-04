@@ -67,18 +67,47 @@
 //   sum += i;
 // }
 // console.log("from 0 to  " + userNumber1 + "  = " +
-let username = prompt("Enter your username");
-let password = prompt("Enter your password");
-let confirm_password = prompt("Enter your confirm password");
+// let username = prompt("Enter your username");
+// let password = prompt("Enter your password");
+// let confirm_password = prompt("Enter your confirm password");
 
-if (username.length > 5) {
-  console.log("username correct");
-}
+// if (username.length > 5) {
+//   console.log("username correct");
+// }
 
-if (password.includes("@")) {
-  console.log("correct password");
-}
+// if (password.includes("@")) {
+//   console.log("correct password");
+// }
 
-if ((password == confirm_password)) {
-  alert("welcome");
+// if ((password == confirm_password)) {
+//   alert("welcome");
+// }
+
+// const username = prompt("Enter your username");
+// let num1 = 20
+// let status1 = false
+// let num2 = 20
+// if(num1 > num2){
+//   console.log(25);
+// } else if(num1 < num2){
+//   console.log("koochektar");
+// } else console.log("====");
+
+// if(!status1 && num1 > 18){
+// console.log(12156);
+// }
+// for(let i =0; i<20; i +=2){
+//   console.log(i);
+// }
+const random = Math.floor(Math.random() * 6 + 1);
+console.log(random);
+function myFunction(a = 12, b = 5) {
+  console.log("salam");
+  console.log(a + b);
 }
+myFunction(5,10);
+
+let func2 = ()=>{
+  console.log("hello");
+}
+func2()

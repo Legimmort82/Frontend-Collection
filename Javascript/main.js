@@ -8,10 +8,12 @@ var b = 12;
 
 // Data Types
 // String Boolean Number Object Array Undefined Null
-
+let person = {name: "ali", age:23, marry: true}
+let people = [2,"ali",23,true]
+people[0]
 // Get Data From User
 const userData = prompt("what is your first name?");
-
+let num3 = "23"
 // Data Types conversions
 Number();
 Boolean();
@@ -19,7 +21,7 @@ String();
 
 // Logical Operators
 // && || !
-
+"23"  === 23
 // Comparative Operators
 // == === != !== > < >= <=
 
