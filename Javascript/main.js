@@ -147,7 +147,9 @@ document.getElementsByClassName;
 document.getElementsByTagName;
 document.querySelector;
 document.querySelectorAll;
-
+document.querySelector(".p1")
+document.querySelector("#p1")
+document.querySelector("p")
 // Access to tag attribute
 some.setAttribute("dir", "rtl");
 some.getAttribute("class");

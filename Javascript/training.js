@@ -99,15 +99,34 @@
 // for(let i =0; i<20; i +=2){
 //   console.log(i);
 // }
-const random = Math.floor(Math.random() * 6 + 1);
-console.log(random);
-function myFunction(a = 12, b = 5) {
-  console.log("salam");
-  console.log(a + b);
-}
-myFunction(5,10);
+// const random = Math.floor(Math.random() * 6 + 1);
+// console.log(random);
+// function myFunction(a = 12, b = 5) {
+//   console.log("salam");
+//   console.log(a + b);
+// }
+// myFunction(5,10);
 
-let func2 = ()=>{
-  console.log("hello");
+// let func2 = ()=>{
+//   console.log("hello");
+// }
+// func2()
+
+const parag = document.querySelector(".parag");
+const body = document.querySelector("body");
+let zero = document.querySelector(".zero");
+
+function handleIncrease() {
+  let value = zero.innerHTML;
+  console.log(value);
+  value += value + 1;
 }
-func2()
+parag.innerHTML = "hello";
+setTimeout(function () {
+  parag.innerHTML = "hi this is a text";
+  parag.style.color = "red";
+  parag.style.backgroundColor = "green";
+  const newDiv = document.createElement("hr");
+  body.append(newDiv);
+}, 2000);
+console.log(parag);
