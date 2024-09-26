@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: rgb(85, 85, 85);
+    margin-left: 200px;
+    letter-spacing: 1px;
+}
+
+hr {
+    margin-top: 19px;
+    margin-left: 200px;
+    margin-right: 192px;
+    opacity: 20%;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.header {
+    background-color: rgb(255, 251, 247);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 6px 9px rgb(165, 165, 165);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.r-header {
+    display: flex;
+    margin-right: 15px;
+}
+
+.l-header {
+    display: flex;
+    margin-left: 15px;
+}
+
+.frist-of-logo {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.logo-header {
+    font-size: 17px;
+    letter-spacing: 4px;
+    display: flex;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.r-header-item {
+    font-size: 17px;
+    letter-spacing: 5px;
+    display: flex;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.l-header:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.r-header-item:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.img-cont {
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img-logo-cont {
+    position: absolute;
+    letter-spacing: 3px;
+}
+
+.frist-of-img-logo {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 13px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    opacity: 75%;
+    border-radius: 4px;
+}
+
+.img-logo {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.project-cont {
+    margin-top:120px;
+}
+
+.project-img-cont {
+    margin-top: 45px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 200px;
+    margin-right: 192px;
+}
+.project-img-cont-2{
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 200px;
+    margin-right: 192px;
+}
+
+.project-single-img-cont {
+    position: relative;
+}
+
+.project-imgs {
+    width: 365px;
+}
+
+.project-img-text {
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+
+.about-cont {
+    margin-top: 120px
+}
+
+.about-text {
+    margin-right: 192px;
+    margin-left: 200px;
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-top: 19px;
+    color: rgb(80, 80, 80);
+    text-align: justify;
+}
+
+.team-cont {
+    margin-right: 192px;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-img {
+    width: 365px;
+}
+
+.person-job {
+    font-size: 19px;
+    color: rgb(139, 139, 139);
+    margin-top: 17px;
+}
+
+.person-detail {
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-top: 19px;
+    color: rgb(80, 80, 80);
+}
+
+.person-button {
+    border: none;
+    padding: 8px 151px;
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.person-button:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.contact-cont {
+    margin-top: 120px;
+}
+
+.contact-text {
+    margin-right: 192px;
+    margin-left: 200px;
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-top: 19px;
+    color: rgb(80, 80, 80);
+}
+
+.input-cont {
+    margin-right: 192px;
+    margin-left: 200px;
+}
+
+.contact_input {
+    display: block;
+    width: 1510px;
+    margin-top: 17px;
+    padding: 11px;
+    font-size: 15px;
+    border: solid 1px rgb(180, 180, 180);;
+}
+
+.contact-button {
+    margin-left: 200px;
+    margin-top: 27px;
+    font-size: 15px;
+    padding: 10px 17px;
+    border: none;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
+
+.end-img-cont {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.end-img {
+    width: 1510px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: rgb(44, 179, 44);
+}
