@@ -1,4 +1,4 @@
-import { createColumnHelper, flexRender, getCoreRowModel, getFilteredRowModel, getSortedRowModel, useReactTable } from "@tanstack/react-table"
+import { createColumnHelper, flexRender, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, getSortedRowModel, useReactTable } from "@tanstack/react-table"
 //* optional
 import {
   ArrowUpDown,
@@ -78,6 +78,7 @@ function TanStackTable() {
       },
     },
     getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
 
     onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
