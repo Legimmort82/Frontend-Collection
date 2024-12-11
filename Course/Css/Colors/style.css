@@ -1,0 +1,21 @@
+.container{
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+}
+.heading-2{
+    color: brown;
+    background-color: yellowgreen;
+    padding: 24px;
+    margin-top: 16px;
+}
+.test-p{
+    color: yellow;
+    background-color: black;
+    padding: 16px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 16px;
+}

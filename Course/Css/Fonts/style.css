@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./Vazir.woff2");
+}
+
+.unique-font {
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 10px;
+  word-spacing: 12px;
+}
+.heading {
+  font-family: "vazir";
+  font-size: 64px;
+  font-weight: 500;
+}

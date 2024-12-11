@@ -1,0 +1,14 @@
+.heading {
+  width: 70%;
+  height: 500px;
+  background-color: antiquewhite;
+}
+.p {
+  font-size: 1rem;
+  padding: 2em;
+}
+.secret {
+  width: 100vw;
+  height: 60vh;
+  font-size: 16px;
+}
