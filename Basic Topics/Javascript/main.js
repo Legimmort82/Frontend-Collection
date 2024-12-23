@@ -21,7 +21,6 @@ String();
 
 // Logical Operators
 // && || !
-"23"  === 23
 // Comparative Operators
 // == === != !== > < >= <=
 

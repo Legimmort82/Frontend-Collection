@@ -1,5 +1,4 @@
 import { forwardRef, useState } from "react";
-import PropTypes from "prop-types";
 
 const PrimaryInput = forwardRef(
   (
@@ -9,6 +8,7 @@ const PrimaryInput = forwardRef(
       error,
       placeholder,
       name,
+      className,
       required,
       maxLength,
       minLength,
@@ -18,24 +18,23 @@ const PrimaryInput = forwardRef(
     },
     ref
   ) => {
-    const [focus, setFocus] = useState(false)
+    const [focus, setFocus] = useState(false);
 
     const handleFocus = (e) => {
-      setFocus(true)
-
+      setFocus(true);
     };
-
     const handleBlur = (e) => {
-      setFocus(false)
+      setFocus(false);
     };
+
     return (
       <div>
         <input
-          type={type}
-          required={required}
           name={name}
           placeholder={placeholder}
+          type={type}
           value={value}
+          required={required}
           maxLength={maxLength}
           minLength={minLength}
           min={min}
@@ -46,7 +45,7 @@ const PrimaryInput = forwardRef(
           onBlur={handleBlur}
           className={`bg-Primary-100 px-2 outline-none w-full border-b-[5px] h-11 border-b-Primary-600 placeholder:text-[30px] duration-1000 py-5 text-[30px] font-semibold rounded-md dark:bg-dark-300 dark:text-white hover:shadow-lg hover:shadow-gray-400 ${
             focus ? "scale-[1.02]" : ""
-          }`}
+          } ${className}`}
         />
         {error && <p className="text-sm text-red-600">{error}</p>}
       </div>
@@ -54,17 +53,4 @@ const PrimaryInput = forwardRef(
   }
 );
 
-PrimaryInput.propTypes ={
-  type: PropTypes.string,
-  value: PropTypes.string,
-  error: PropTypes.string,
-  placeholder: PropTypes.string,
-  name: PropTypes.string,
-  required: PropTypes.bool,
-  maxLength: PropTypes.number,
-  minLength: PropTypes.number,
-  min: PropTypes.number,
-  max: PropTypes.number,
-  onChange: PropTypes.func
- }
 export default PrimaryInput;
