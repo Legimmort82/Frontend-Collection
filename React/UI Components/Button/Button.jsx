@@ -26,10 +26,10 @@ const Button = ({
   };
 
   const paddings = {
-    sm: "py-4 px-4",
-    md: "py-4 px-6 ",
-    lg: "py-6 px-6",
-    xl: "py-6 px-8",
+    sm: "py-3 px-4",
+    md: "py-3 px-6 ",
+    lg: "py-4 px-6",
+    xl: "py-4 px-8",
   };
 
   return (
