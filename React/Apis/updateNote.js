@@ -9,10 +9,10 @@ import {
    * @param {UseMutationOptions} options
    * @returns UseMutationResult
    */
+
   const useUpdateNote = (options = {}) => {
     return useMutation({
       mutationFn: ({data,id}) => apiClient.put(`/${id}`, data),
-  
       ...options,
     });
   };

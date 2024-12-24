@@ -1,11 +1,13 @@
 import { UseQueryOptions } from "@tanstack/react-query";
 import { useQuery } from "@tanstack/react-query";
 import { apiClient } from "../instance";
+
 /**
  *
  * @param {UseQueryOptions} options
  * @returns UseQueryResult
  */
+
 const useGetAllNotes = (options = {}) => {
   return useQuery({
     queryKey: ["Notes"],
