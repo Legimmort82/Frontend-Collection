@@ -1,3 +1,15 @@
+type ButtonProps = {
+  children: React.ReactNode;
+  variant: "outline" | "fill";
+  radius: "none" | "sm" | "md" | "lg" | "xl" | "xxl" | "full";
+  color: string;
+  padding: "sm" | "md" | "lg" | "xl";
+  disabled: boolean;
+  className: string;
+  onClick: () => void;
+  type: "button" | "submit";
+  loading: boolean;
+};
 const Button = ({
   children,
   variant,
@@ -9,7 +21,7 @@ const Button = ({
   onClick,
   type = "button",
   loading = false,
-}) => {
+}: ButtonProps) => {
   const radiuses = {
     none: "0px",
     sm: "4px",
@@ -21,13 +33,13 @@ const Button = ({
   };
 
   const variants = {
-    outline: `text-[${color}] border border-${color}`,
-    fill: `text-white bg-[${color}] `,
+    outline: `text-${color} border border-${color}`,
+    fill: `text-white bg-${color} `,
   };
 
   const paddings = {
-    sm: "py-3 px-4",
-    md: "py-3 px-6 ",
+    sm: "py-2 px-4",
+    md: "py-2 px-6 ",
     lg: "py-4 px-6",
     xl: "py-4 px-8",
   };
