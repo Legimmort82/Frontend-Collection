@@ -1,14 +1,15 @@
+import { z } from "zod";
 export const UserCompany = z.object({
-    name: z.optional(z.string().max(255)),
-    email: z.optional(z.string().max(255)),
-    phone: z.optional(z.string().max(255)),
-    fax: z.optional(z.string().max(255)),
-    bio: z.optional(z.string().max(255)),
-    address: z.optional(z.string().max(255)),
-    website: z.optional(z.string().max(255)),
-  });
+  name: z.optional(z.string().max(255)),
+  email: z.optional(z.string().max(255)),
+  phone: z.optional(z.string().max(255)),
+  fax: z.optional(z.string().max(255)),
+  bio: z.optional(z.string().max(255)),
+  address: z.optional(z.string().max(255)),
+  website: z.optional(z.string().max(255)),
+});
 
-  export const signUpSchema = z
+export const signUpSchema = z
   .object({
     username: userNameSchema,
     password: passwordSchema,
