@@ -32,7 +32,7 @@ String();
 // if (){} else if else
 
 // Loops
-for (let i; i < 10; i++) {
+for (let i=0; i < 10; i++) {
   console.log(i);
 }
 var i = 1;
@@ -76,6 +76,7 @@ function myTodo(digit = 12) {
   console.log(digit);
   return digit + 8;
 }
+
 //Arrow Function
 let multiple = () => {
   console.log("hi there");
@@ -141,7 +142,7 @@ setTimeout(function () {
 //Dom section
 
 // Selecting a tag
-document.getElementById;
+ const input = document.getElementById("name");
 document.getElementsByClassName;
 document.getElementsByTagName;
 document.querySelector;
@@ -238,3 +239,8 @@ myApp
 // remove() remove element
 //defer
 
+export default function heyyou(){
+
+}
+console.log
+import heyyou from "../.git"
