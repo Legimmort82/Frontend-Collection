@@ -1,0 +1,9 @@
+.default {
+  transition-timing-function: ease;
+}
+.default {
+  transition-timing-function: ease-in;
+}
+.default {
+  transition: all ease 3s;
+}

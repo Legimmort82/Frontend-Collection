@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  div {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 368px) {
+  div {
+    background-color: blue;
+  }
+}

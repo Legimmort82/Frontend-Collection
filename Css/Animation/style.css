@@ -1,0 +1,14 @@
+.animation {
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  20% {
+    transform: translateX(-50px);
+  }
+}

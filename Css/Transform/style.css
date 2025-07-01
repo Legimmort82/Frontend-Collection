@@ -1,0 +1,12 @@
+.one{
+    transform: translate(60px,80px);
+}
+.one2{
+    transform: rotate(360deg);
+}
+.one3{
+    transform: scale(2.5);
+}
+.one{
+    transform: skew(35);
+}
