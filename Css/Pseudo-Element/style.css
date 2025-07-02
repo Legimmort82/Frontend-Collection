@@ -1,14 +1,23 @@
-::after {
+.lorem::after {
+   content: "hello and welcome to";
 }
-::before {
+.lorem3::before {
+    content: "good bye see you";
 }
 
-::first-letter {
+.lorem::first-letter {
+    font-size: 80px;
+    color: red;
 }
-::first-line {
+.lorem2::first-line {
+    font-style: italic;
 }
 ::marker {
+    /* background-color: red; */
+    color: red;
 }
 
 ::selection {
+    background-color: yellow;
+    color: gray;
 }

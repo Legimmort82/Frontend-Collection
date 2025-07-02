@@ -1,40 +1,38 @@
-:active{
-
+.google:active {
+  color: red;
+}
+.google:hover {
+  background-color: blue;
+}
+.google:visited {
+  color: yellow;
+}
+.checkBox:checked {
+    color: yellow;
 }
 
-:checked{
-
+.checkBox:dir {
+    direction: ltr;
+}
+.btn-disabled:disabled {
+    color:purple
+}
+.ul:first-child {
+    font-size: 80px;
+}
+.focus:focus {
+    border: 4px solid orange;
 }
 
-:dir{
-
+.ul:last-child {
+    font-size: 60px;
 }
-:disabled{
-
+.ul:nth-child(2) {
+    color: blue;
 }
-:first-child{
-
+.read-only:read-only {
+    background-color: red;
 }
-:focus{
-
-}
-
-:hover{
-
-}
-
-:last-child{
-
-}
-:nth-child(){
-
-}
-:read-only{
-
-}
-:required{
-
-}
-:visited{
-
+.required:required {
+    color: brown;
 }
