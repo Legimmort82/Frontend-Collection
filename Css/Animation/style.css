@@ -2,6 +2,7 @@
   animation-name: move;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 
 @keyframes move {
@@ -10,5 +11,11 @@
   }
   20% {
     transform: translateX(-50px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: scale(2);
   }
 }

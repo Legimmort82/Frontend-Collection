@@ -142,7 +142,7 @@ setTimeout(function () {
 //Dom section
 
 // Selecting a tag
- const input = document.getElementById("name");
+const input = document.getElementById("name");
 document.getElementsByClassName;
 document.getElementsByTagName;
 document.querySelector;

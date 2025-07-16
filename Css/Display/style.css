@@ -1,0 +1,15 @@
+.first-one {
+  display: block;
+}
+.before-last {
+  display: inline;
+}
+.last-one {
+  display: inline-block;
+}
+.last {
+  display: flex;
+}
+p {
+  display: grid;
+}
